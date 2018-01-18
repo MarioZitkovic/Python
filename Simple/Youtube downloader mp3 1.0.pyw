@@ -8,7 +8,7 @@ root = Tk()
 
 def yutub():
     vid = w.get()
-    yt = YouTube(vid).streams.get_by_itag(140).download('C:/Users/mario/Desktop')
+    yt = YouTube(vid).streams.get_by_itag(140).download('C:/Users/user/Desktop')           # Put your download destination here
     tkinter.messagebox.showinfo('Video', 'Video se skinuo')
 
 
